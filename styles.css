@@ -191,8 +191,8 @@ body {
 }
 
 .circle {
-  height: 16px;
-  width: 16px;
+  height: 14px;
+  width: 14px;
   border-radius: 24px;
   background-color: #00acf0;
   position: absolute;
