@@ -43,7 +43,7 @@ window.addEventListener("mousemove", function (e) {
 });
 
 // Animate the circles
-function animateCircles() {
+function animateCircles() { 
   let x = coords.x;
   let y = coords.y;
 
