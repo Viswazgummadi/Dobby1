@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: consolas;
+        }
+
+        section {
+            padding: 50px;
+            background: #000;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            color: #fff;
+        }
+
+        section p {
+            font-size: 1.2em;
+            color: #fff;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+
+        #scrollPath {
+            position: fixed;
+            top: 0;
+            width: 10px;
+            height: 0%;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        #progressbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 10px;
+            background: linear-gradient(to top, #008aff, #00ffe7);
+            animation: progressbar-animate 5s linear infinite;
+        }
+
+        @keyframes progressbar-animate {
+            0% {
+                filter: hue-rotate(0deg);
+            }
+
+            50% {
+                filter: hue-rotate(360deg);
+            }
+        }
+
+        #progressbar::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, #008aff, #00ffe7);
+            filter: blur(10px);
+        }
+
+        #progressbar::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, #008aff, #00ffe7);
+            filter: blur(30px);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <section>
+        <h2>Creative scroll progress bar</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus totam iure dolorem distinctio,
+            praesentium beatae provident eligendi a eos aliquid at officia incidunt sequi alias perferendis? Quis magnam
+            quo laboriosam inventore amet obcaecati officiis at atque totam tenetur maiores natus distinctio quod, ullam
+            debitis voluptatibus necessitatibus optio dicta. Explicabo consequatur mollitia et deserunt vitae dolor
+            saepe dicta, sit earum laborum praesentium hic dolore fuga magni unde quia illo quasi, ipsam eum aspernatur
+            delectus rem culpa! Saepe eveniet provident, et nesciunt possimus fuga deleniti earum reprehenderit
+            praesentium cum libero corporis aut neque excepturi officia sit asperiores nostrum nisi consequuntur
+            consectetur sint, impedit illo ex facilis. Veniam, ullam pariatur provident inventore placeat, voluptatem
+            reiciendis ipsam accusamus possimus neque cum. Iusto quibusdam eveniet sed voluptate nulla? Voluptate, enim!
+            Iusto pariatur quas voluptatibus soluta laudantium rem enim. Id repudiandae veritatis voluptates architecto
+            sint quis molestias quaerat, maiores praesentium ea reprehenderit exercitationem facilis! Ipsum repudiandae
+            sit ea, itaque consequatur omnis corporis asperiores. Repellendus minima id temporibus, maxime esse
+            laudantium voluptatem ea, amet aliquid eveniet nemo laborum vitae tenetur, soluta eligendi labore est ex
+            autem qui sapiente? Adipisci odit iusto iure, veniam voluptate vero laborum cum fuga velit aliquam quas,
+            harum hic dolorem placeat commodi corrupti inventore pariatur? Nisi quia blanditiis eaque minima reiciendis
+            quidem sapiente error consequuntur atque architecto repudiandae distinctio fugit totam sunt, vero commodi
+            placeat cupiditate. At laudantium id quos voluptatum tempora vel temporibus doloremque omnis? Repudiandae
+            reprehenderit architecto quam, dolore quaerat nihil ut, totam obcaecati illo pariatur molestiae deserunt non
+            ab fuga perferendis neque porro voluptatem sapiente sunt. Id quasi qui ea quam est facere ab, aut
+            reprehenderit tempore repellendus officiis eos, eveniet ipsa! Maxime tenetur eius perspiciatis eos harum nam
+            dolorem blanditiis reiciendis ducimus ab porro voluptas inventore, obcaecati quo optio voluptatem?
+            Blanditiis id, similique ipsum quae illo quo et eius repellat impedit pariatur a rerum delectus quisquam est
+            maiores, repellendus numquam voluptatum quam. Distinctio corporis voluptatem repellat, soluta voluptas iste
+            sunt eligendi, esse dicta, perspiciatis accusantium voluptate magni harum. Unde odio fugiat quo ex amet
+            similique ea eveniet sit aspernatur nobis vitae rem temporibus quaerat deserunt tempore fuga, doloribus,
+            ratione minus recusandae blanditiis est dolor ad sapiente! Reprehenderit omnis architecto veritatis, dolorum
+            laboriosam mollitia perspiciatis aliquid obcaecati quidem dignissimos corporis ex aut iusto aspernatur, sunt
+            laborum sed saepe inventore assumenda nesciunt magni nobis reiciendis unde porro? Odio quibusdam, rem eum
+            eos adipisci deleniti eius, voluptatibus veritatis unde in esse facere. Dignissimos nulla incidunt quia
+            saepe aliquam quibusdam quos quam eos sed nisi necessitatibus, aut, dolorem non in quod qui sunt ipsum,
+            beatae repellat labore doloremque quo magni? Illo possimus voluptatibus maiores libero ratione deserunt
+            ducimus asperiores laudantium minima enim cum, rerum expedita quo exercitationem qui. Consectetur
+            perferendis dolores est aspernatur rerum maiores eaque deserunt eius architecto minus veritatis, nam enim?
+            Magni, iusto dolor perspiciatis temporibus repudiandae quis dolores ut nesciunt ab perferendis iste aperiam.
+            Ab optio culpa animi vitae, laudantium modi omnis error reprehenderit aliquid quod facere dicta, beatae
+            nulla. Iste minima repellendus laudantium quaerat, tempore nemo hic omnis cum praesentium rem temporibus
+            repudiandae officiis doloremque vel nam cumque accusamus? Reiciendis non voluptatum et eius accusantium
+            exercitationem quae. Modi nisi iusto perspiciatis, aut quasi dolore facere, porro, nesciunt molestias
+            ratione atque odit! Iusto quas consequuntur et praesentium natus nisi sint eos id magni amet? Accusamus
+            aliquam, dolorem suscipit sequi cum officiis unde eius animi ipsam dolores fuga voluptas labore reiciendis
+            reprehenderit pariatur? Ad dolor quidem et aperiam necessitatibus. Hic nostrum id laborum quas cum quis
+            sapiente possimus, commodi officiis aliquam sequi, ad sint deleniti dolorum repudiandae laboriosam et,
+            voluptates veniam voluptatum recusandae autem adipisci doloremque! Optio molestias consequatur rerum?</p>
+    </section>
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function () {
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+</body>
+
+</html>
