@@ -41,9 +41,13 @@ body {
 .logo:hover {
   color: #000;
 }
+.navbar {
+  margin-left: 380px;
+}
 .navbar a {
   font-size: 18px;
   color: #ededed;
+  paddind: 11px;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
