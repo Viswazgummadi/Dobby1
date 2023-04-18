@@ -10,6 +10,7 @@
 
 body {
   color: #ededed;
+  overflow: hidden;
 }
 
 .header {
