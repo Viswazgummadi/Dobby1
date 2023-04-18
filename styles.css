@@ -42,16 +42,16 @@ body {
   color: #000;
 }
 .navbar {
-  margin-left: 380px;
+  margin-left: 500px;
 }
 .navbar a {
   font-size: 18px;
   color: #ededed;
-  paddind: 11px;
+  paddind: 10px;
   text-decoration: none;
   font-weight: 500;
   justify-content: space-between;
-  margin-left: 30px;
+  margin-left: 18px;
   transition: 0.25s;
 }
 .navbar a:hover,
