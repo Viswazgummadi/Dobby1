@@ -247,3 +247,32 @@ body {
 a:hover {
   color: #1e84b3;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens smaller than 600px */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-content {
+    padding: 50px;
+  }
+
+  .btn-box a {
+    margin: 10px;
+  }
+
+  .circle {
+    display: none;
+  }
+}
