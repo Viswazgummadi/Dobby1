@@ -20,9 +20,15 @@ body {
   padding: 20px 10%;
   background: transparent;
   display: flex;
-  justify-content: space-between;
   align-items: center; 
   z-index: 100;
+}
+
+.header img {
+  width: 65px;
+  height: 65px;
+  margin-top: 5px;
+  margin-right: 0;
 }
 
 .logo {
