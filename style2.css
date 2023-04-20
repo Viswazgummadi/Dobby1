@@ -34,7 +34,12 @@ header .pic {
 header .navigation {
   position: relative;
 }
-
+.header img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 0;
+}
 header .navigation .navigation-items a {
   position: relative;
   color: #fff;
@@ -59,12 +64,7 @@ header .navigation .navigation-items a:before {
 header .navigation .navigation-items a:hover:before {
   width: 100%;
 }
-.header img {
-  width: 40px;
-  height: 40px;
-  margin-top: 5px;
-  margin-right: 0;
-}
+
 section {
   padding: 100px 200px;
 }
