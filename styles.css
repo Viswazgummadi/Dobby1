@@ -276,7 +276,7 @@ a:hover {
 .status i {
   zoom: 200%;
 }
-@media (max-width: 1090px) {
+@media (max-width: 1100px) {
   * {
     cursor: auto;
   }
